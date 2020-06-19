@@ -1,0 +1,286 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    overflow-x: hidden;
+    font-family: 'Comic Neue', cursive;
+    color: #505962;
+    /* width: 100%; */
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.5);
+    color: aqua;
+    height: 60px;
+    width: 100%;
+}
+
+.nav-link {
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.video-background {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+}
+
+.caption {
+    position: absolute;
+    top: 38%;
+    width: 100%;
+    color: #052D5A;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.caption h1 {
+    font-size: 7rem;
+    font-weight: 700;
+    letter-spacing: 0.4rem;
+    text-shadow: 0.1rem 0.1rem 0.8rem black;
+    padding-bottom: 1rem;
+}
+
+.btn-lg {
+    border-width: medium;
+    border-radius: 0;
+    font-size: 1.1rem;
+    padding: 0.6rem 1.3rem;
+    font-family: 'Comic Neue', cursive;
+}
+
+.cf1 {
+    position: relative;
+    bottom: 450px;
+}
+
+
+/* Middiv */
+
+.cf2 {
+    background-color: #052D5A;
+}
+
+.title {
+    color: #FFFF;
+    position: relative;
+    font-size: 5rem;
+    left: 7%;
+    /* padding-top: 5%; */
+    line-height: 4;
+}
+
+.description {
+    position: relative;
+    color: #16B78F;
+    font-size: 2.8rem;
+    /* left:2%; */
+    font-weight: 900;
+    /* width: 43%; */
+}
+
+.description1 {
+    position: relative;
+    color: #fff;
+    font-size: 2.3rem;
+    /* left:8%; */
+    /* top: 16%; */
+    font-weight: 700;
+    /* width: 43%; */
+}
+
+
+.titlee1 {
+
+    color: #16B78F;
+    position: relative;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: -0.1rem;
+    line-height: 3;
+    left: 7%;
+    /* top: 30px; */
+    /* padding-top: 6%; */
+
+}
+
+.card {
+    margin: 15px;
+}
+
+.title1 {
+    color: #16B78F;
+    line-height: 3;
+    position: relative;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: -0.1rem;
+    left: 7%;
+}
+
+.description3 {
+    position: relative;
+    color: #fff;
+    font-size: 2.3rem;
+    /* left:8%; */
+    /* top: 16%; */
+    font-weight: 700;
+
+    /* width: 43%; */
+}
+
+.description4 {
+    position: relative;
+    color: #16B78F;
+    font-size: 2.8rem;
+    /* left:8%; */
+    /* top: 16%; */
+    font-weight: 700;
+    /* width: 43%; */
+}
+
+.mid1 {
+    background-color: #fff;
+    /* width: 38%; */
+    /* margin: 0 0 0 900px; */
+    padding: 100px 10px 100px 70px;
+    position: relative;
+    font-size: 1.2rem;
+    /* right: 10%; */
+    /* bottom:230px; */
+}
+
+.submit {
+    background-color: #16B78F;
+    color: ##11847C;
+    border-width: medium;
+    border-radius: 0;
+    font-size: 1.1rem;
+    /* padding: 0.6rem 1.3rem; */
+
+}
+
+.footer {
+    background-color: #052D5A;
+    color: white;
+    /* text-align: center; */
+    position: relative;
+    /* top: 400px; */
+}
+
+@media (max-width:768px) {
+
+    .title {
+        color: #FFFF;
+        position: relative;
+        font-size: 2.5rem;
+        left: 7%;
+        line-height: 4;
+    }
+
+    .description {
+        position: relative;
+        color: #16B78F;
+        font-size: 1.4rem;
+        /* left:2%; */
+        font-weight: 900;
+        /* width: 43%; */
+    }
+
+    .description1 {
+        position: relative;
+        color: #fff;
+        font-size: 1.4rem;
+        /* left:8%; */
+        /* top: 16%; */
+        font-weight: 700;
+        /* width: 43%; */
+    }
+
+
+    .titlee1 {
+
+        color: #16B78F;
+        position: relative;
+        font-size: 2.5rem;
+        font-weight: 700;
+        letter-spacing: -0.2rem;
+        line-height: 3;
+        left: 7%;
+        /* top: 30px; */
+        /* padding-top: 6%; */
+
+    }
+
+    .card {
+        margin: 15px;
+    }
+
+    .title1 {
+        color: #16B78F;
+        line-height: 3;
+        position: relative;
+        font-size: 2.5rem;
+        font-weight: 700;
+        letter-spacing: -0.1rem;
+        left: 7%;
+    }
+
+    .description3 {
+        position: relative;
+        color: #fff;
+        font-size: 1.4rem;
+        /* left:8%; */
+        /* top: 16%; */
+        font-weight: 700;
+
+        /* width: 43%; */
+    }
+
+    .description4 {
+        position: relative;
+        color: #16B78F;
+        font-size: 1.4rem;
+        /* left:8%; */
+        /* top: 16%; */
+        font-weight: 700;
+        /* width: 43%; */
+    }
+
+    .mid1 {
+        background-color: #fff;
+        /* width: 38%; */
+        /* margin: 0 0 0 900px; */
+        padding: 100px 10px 100px 70px;
+        position: relative;
+        font-size: 1.2rem;
+        /* right: 10%; */
+        /* bottom:230px; */
+    }
+
+    .submit {
+        background-color: #16B78F;
+        color: ##11847C;
+        border-width: medium;
+        border-radius: 0;
+        font-size: 1.1rem;
+        /* padding: 0.6rem 1.3rem; */
+
+    }
+
+    .footer {
+        background-color: #052D5A;
+        color: white;
+        /* text-align: center; */
+        position: relative;
+        /* top: 400px; */
+    }
+}

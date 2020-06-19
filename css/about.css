@@ -1,0 +1,275 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    /* overflow-x: hidden; */
+    font-family: 'Montserrat', sans-serif;
+    /* color: #505962; */
+    /* width: 100%; */
+    height:1500px ;
+}
+
+.top{
+
+    background-color: #052D5A;
+}
+
+.navbar{
+    background: #fff;
+    position: absolute;
+    /* height:4.8rem;   */
+    width: 100%;
+    height: 60px;
+}
+
+.nav-link{
+    font-weight:bolder;
+    font-size: 1.3rem;
+}
+.nav-item{
+    padding: 0 15px;
+}
+.nav-item:hover{
+    color: #16B78F;
+    background-color: #16B78F;
+    text-decoration: #16B78F;
+} 
+
+.collapse{
+    background: #fff;
+    padding: 5px 25px;
+    z-index: 1;
+}
+
+.background1{
+    min-height: 90vh;
+    z-index: -1;
+}
+.cf1{
+    position: relative;
+    bottom: 550px;
+}
+
+.cf1 h1{
+    color: #fff;
+    display: inline-block;
+    font-size: 4rem;
+    font-weight:bolder;
+    position: relative;
+    left: 90px;
+    z-index: 0;
+}
+
+.cf1 h3{
+    
+    color: #fff;
+    display: inline-block;
+    font-size: 2rem;
+    line-height: 4;
+    font-weight:bolder;
+    position: relative;
+    left: 90px;
+    z-index: 0;
+}
+
+.cf2 {
+    position: relative;
+    bottom: 450px;
+}
+
+.col1{
+    color: #16B78F;
+    font-size:2.5rem;
+}
+
+.col2{
+    color: #ffF;
+    font-size:1.5rem;
+
+}
+
+
+.cf3{
+    position: relative;
+    background: #fff;
+    bottom: 400px;
+}
+
+.cf3 h1{
+    padding-top: 100px;
+    width: 45%;
+    font-size: 2.3rem;
+    padding-bottom: 40px;
+    position: relative;
+    left: 380px;
+}
+
+.submit {
+    background-color: #16B78F;
+    color: ##11847C;
+    border-width: medium;
+    border-radius: 0;
+    font-size: 1.1rem;
+    position: relative;
+    left:590px;
+}
+
+
+.row2{
+    padding-top: 100px;
+}
+.cf4{
+    
+    position: relative;
+    bottom: 400px;
+    background-color: #052D5A;
+}
+.col3{
+    background-color:#052D5A ;
+    color: #fff;
+}
+
+.col3 p{
+
+    width: 90%;
+    position: relative;
+    /* left: 55px; */
+}
+
+.col4 img{
+    width: 650px;
+    height: auto;
+    position: relative;
+    /* right: 15px; */
+}
+.cf5{
+    
+    position: relative;
+    bottom: 400px;
+    background-color: #052D5A;
+}
+.col5{
+    background-color:#052D5A ;
+    color: #fff;
+}
+
+.col5 p{
+
+    width: 85%;
+    position: relative;
+    /* left: 35px; */
+}
+.col6 img{
+    width: 690px;
+    height: auto;
+    position: relative;
+    /* left: 60px; */
+}
+
+.footer {
+    background-color: #052D5A;
+    color: white;
+    /* text-align: center; */
+    position: relative;
+    /* top: 800px; */
+    bottom: 400px;
+}
+
+@media screen and (max-width:768px){
+ 
+    .background1{
+        min-height: 100vh;
+    }
+    
+    .cf1 h1{
+        color: #fff;
+        display: inline-block;
+        font-size: 2rem;
+        font-weight:bolder;
+        position: relative;
+        left: 50px;
+    }
+    
+    .cf1 h3{
+        
+        color: #fff;
+        display: inline-block;
+        font-size: 1rem;
+        line-height: 4;
+        font-weight:bolder;
+        position: relative;
+        left: 50px;
+    }
+
+    .col1{
+        color: #16B78F;
+        font-size:1.4rem;
+    }
+    
+    .col2{
+        color: #ffF;
+        font-size:0.8rem;
+    
+    }
+    .cf3 h1{
+        padding-top: 100px;
+        width: 45%;
+        font-size: 1.8rem;
+        padding-bottom: 40px;
+        position: relative;
+        left: 130px;
+    }
+    .submit {
+        background-color: #16B78F;
+        color: ##11847C;
+        border-width: medium;
+        border-radius: 0;
+        font-size: 1.1rem;
+        position: relative;
+        left: 130px;
+        padding-bottom: 20px;
+    }
+
+    .col3{
+        background-color:#052D5A ;
+        color: #fff;
+    }
+    
+    .para{
+    
+        position: relative;
+        /* right: 80px; */
+    }
+    
+    .col4 img{
+        width: 430px;
+        height: auto;
+        position: relative;
+        /* right: 15px; */
+    }
+    .cf5{
+        
+        position: relative;
+        bottom: 400px;
+        background-color: #052D5A;
+    }
+    .col5{
+        background-color:#052D5A ;
+        color: #fff;
+    }
+    
+    .col5 p{
+    
+        width: 90%;
+        position: relative;
+        /* right: 6px; */
+    }
+    .col6 img{
+        width: 430px;
+        position: relative;
+        /* right: 6rem; */
+    }
+    
+}
