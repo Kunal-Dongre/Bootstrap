@@ -201,7 +201,7 @@ body {
         line-height: 4;
         font-weight:bolder;
         position: relative;
-        /* left: 50px; */
+        right: 30px;
     }
 
     .col1{
@@ -220,7 +220,7 @@ body {
         font-size: 1.8rem;
         padding-bottom: 40px;
         position: relative;
-        left: 80px;
+        left: 90px;
     }
     .submit {
         background-color: #16B78F;
@@ -229,7 +229,7 @@ body {
         border-radius: 0;
         font-size: 1.1rem;
         position: relative;
-        left: 80px;
+        left: 85px;
         /* padding-bottom: 20px;s */
     }
 
