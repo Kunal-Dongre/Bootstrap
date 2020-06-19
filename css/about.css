@@ -180,7 +180,7 @@ body {
 @media screen and (max-width:768px){
  
     .background1{
-        min-height: 100vh;
+        min-height: 80vh;
     }
     
     .cf1 h1{
@@ -189,7 +189,7 @@ body {
         font-size: 2rem;
         font-weight:bolder;
         position: relative;
-        left: 50px;
+        /* left: 50px; */
     }
     
     .cf1 h3{
@@ -200,7 +200,7 @@ body {
         line-height: 4;
         font-weight:bolder;
         position: relative;
-        left: 50px;
+        /* left: 50px; */
     }
 
     .col1{
