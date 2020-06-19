@@ -190,6 +190,7 @@ body {
         font-weight:bolder;
         position: relative;
         /* left: 50px; */
+        right: 50px;
     }
     
     .cf1 h3{
