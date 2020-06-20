@@ -9,7 +9,7 @@ body{
     height: 600px;
 }
 .navbar{
-    background: #fff;
+    background: #052D5A;
     position: absolute;
     /* height:4.8rem;   */
     width: 100%;
@@ -30,7 +30,7 @@ body{
 } 
 
 .collapse{
-    background: #fff;
+    background: #052D5A;
     padding: 5px 25px;
 }
 
@@ -72,7 +72,7 @@ body{
 
   @media screen and (max-width:599px){ 
     .navbar{
-        background: #fff;
+        background: #052d5a;
         height:4.8rem;  
         z-index: 1;
     }
